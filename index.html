@@ -14,10 +14,9 @@
     <nav>
       <ul>
         <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#services">Servicios</a></li>
         <li><a href="#skills">Habilidades</a></li>
         <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#testimonials">Testimonios</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
@@ -26,50 +25,65 @@
   <main>
     <section id="about" class="fade-in">
       <h2>Sobre Mí</h2>
-      <p>Soy Leonel Gonzales Penarez, estudiante y desarrollador con interés en la inteligencia artificial, el desarrollo web moderno y la dirección de proyectos. Me gusta aplicar la tecnología para resolver problemas reales y mejorar procesos.</p>
-      <button onclick="window.location='#contact'">Contáctame</button>
+      <p>🎯 Soy Leonel Gonzales Peñarez, desarrollador entusiasta con experiencia en soporte técnico, desarrollo de aplicaciones móviles, redes y automatización con tecnologías modernas.</p>
+      <p>Actualmente estoy desarrollando una app Android en Java y explorando el potencial de la inteligencia artificial aplicada a soluciones reales. 🚀</p>
+    </section>
+
+    <section id="services" class="fade-in">
+      <h2>📌 Soporte Técnico y Consultoría</h2>
+      <ul>
+        <li>🔧 <strong>Soporte Técnico:</strong> Mantenimiento de hardware y software.</li>
+        <li>🌐 <strong>Redes:</strong> Configuración y seguridad de redes informáticas.</li>
+        <li>📊 <strong>Consultoría:</strong> Optimización de procesos y sistemas.</li>
+      </ul>
+      <button onclick="window.location.href='#contact'">Solicitar Asesoría</button>
     </section>
 
     <section id="skills" class="fade-in">
-      <h2>Habilidades</h2>
+      <h2>🚀 Tecnologías y Herramientas</h2>
       <ul>
-        <li><i class="fas fa-code"></i> HTML, CSS, JavaScript</li>
-        <li><i class="fas fa-database"></i> Bases de Datos (MySQL, Firebase)</li>
-        <li><i class="fas fa-brain"></i> Fundamentos de IA</li>
-        <li><i class="fas fa-project-diagram"></i> Gestión de Proyectos Ágiles</li>
+        <li>💻 Java, Python, JavaScript</li>
+        <li>📱 Android Studio (Java)</li>
+        <li>🌐 HTML, CSS, Node.js</li>
+        <li>🛠 Git, GitHub, Firebase, VS Code</li>
       </ul>
+      <button onclick="window.open('https://github.com/gleonelp', '_blank')">Ver GitHub</button>
     </section>
 
     <section id="projects" class="fade-in">
-      <h2>Proyectos</h2>
+      <h2>📌 Proyectos Destacados</h2>
       <div class="card-container">
         <div class="card">
-          <h3>App de Tareas</h3>
-          <p>Aplicación web para registrar tareas, marcarlas como completadas y eliminarlas.</p>
-          <button onclick="alert('Demo no disponible')">Ver Proyecto</button>
+          <h3>📱 App Android: Cifrado César</h3>
+          <p>Valida números y aplica cifrado de texto.</p>
+          <button onclick="window.open('https://github.com/gleonelp/portafolio', '_blank')">Ver Código</button>
         </div>
         <div class="card">
-          <h3>Calculadora de Gastos</h3>
-          <p>Permite ingresar ingresos/egresos y calcular el saldo mensual. Desarrollada con JS.</p>
-          <button onclick="alert('Demo no disponible')">Ver Proyecto</button>
+          <h3>🔬 Experimentos con IA</h3>
+          <p>Pruebas con herramientas de inteligencia artificial generativa.</p>
+          <button onclick="alert('Demo privada. Pronto estará disponible.')">Ver Demo</button>
+        </div>
+        <div class="card">
+          <h3>🌍 Sitios Web Dinámicos</h3>
+          <p>Diseño de sitios interactivos usando HTML, CSS y JavaScript.</p>
+          <button onclick="window.location.href='https://gleonelp.github.io/portafolio'">Ir al Sitio</button>
         </div>
       </div>
     </section>
 
-    <section id="blog" class="fade-in">
-      <h2>Blog</h2>
-      <p>Estoy escribiendo artículos sobre inteligencia artificial, desarrollo web y buenas prácticas en programación. Muy pronto compartiré el enlace aquí.</p>
-    </section>
-
-    <section id="testimonials" class="fade-in">
-      <h2>Testimonios</h2>
-      <p>"Leonel es un profesional comprometido. Su forma de organizar y liderar tareas nos ayudó a cumplir los objetivos del proyecto." – Compañero de clase</p>
-    </section>
-
     <section id="contact" class="fade-in">
-      <h2>Contacto</h2>
-      <p>¿Quieres colaborar en un proyecto o necesitas ayuda? Escríbeme:</p>
-      <button onclick="window.location='mailto:leonel@example.com'">Enviar Correo</button>
+      <h2>🌎 Encuéntrame en</h2>
+      <button onclick="window.open('https://twitter.com/tuusuario', '_blank')">🐦 Twitter</button>
+      <button onclick="window.open('https://www.linkedin.com/in/leonel-boris-gonzales-penarez-271249351', '_blank')">💼 LinkedIn</button>
+      <button onclick="window.open('https://gleonelp.github.io/portafolio', '_blank')">📂 Portafolio</button>
+
+      <h3 style="margin-top: 30px;">📩 Correo</h3>
+      <button onclick="window.location.href='mailto:gleonel01@gmail.com'">Enviar Correo</button>
+
+      <h3 style="margin-top: 30px;">📦 Clonar Repositorio</h3>
+      <button onclick="navigator.clipboard.writeText('git clone https://github.com/gleonelp/portafolio.git'); alert('¡Comando copiado!')">
+        Copiar comando
+      </button>
     </section>
   </main>
 
